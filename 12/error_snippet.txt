@@ -1,0 +1,132 @@
+﻿> D:\iti\kotlin\12\raw_help.txt:26:    + FullyQualifiedErrorId : NativeCo 
+> D:\iti\kotlin\12\raw_help.txt:27:   mmandError
+  D:\iti\kotlin\12\raw_help.txt:28: 
+> D:\iti\kotlin\12\raw_help.txt:29:FAILURE: Build failed with an 
+> D:\iti\kotlin\12\raw_help.txt:30:exception.
+  D:\iti\kotlin\12\raw_help.txt:31:
+> D:\iti\kotlin\12\raw_help.txt:32:* What went wrong:
+  D:\iti\kotlin\12\raw_help.txt:33:25.0.1
+  D:\iti\kotlin\12\raw_help.txt:34:
+  D:\iti\kotlin\12\raw_help.txt:35:* Try:
+  D:\iti\kotlin\12\raw_help.txt:36:> Run with --debug option to get more 
+  D:\iti\kotlin\12\raw_help.txt:37:log output.
+  D:\iti\kotlin\12\raw_help.txt:38:> Run with --scan to get full insights.
+  D:\iti\kotlin\12\raw_help.txt:39:> Get more help at 
+  D:\iti\kotlin\12\raw_help.txt:40:https://help.gradle.org.
+  D:\iti\kotlin\12\raw_help.txt:41:
+> D:\iti\kotlin\12\raw_help.txt:42:* Exception is:
+> D:\iti\kotlin\12\raw_help.txt:43:java.lang.IllegalArgumentException: 
+  D:\iti\kotlin\12\raw_help.txt:44:25.0.1
+  D:\iti\kotlin\12\raw_help.txt:45:	at org.jetbrains.kotlin.com.intellij.u
+  D:\iti\kotlin\12\raw_help.txt:46:til.lang.JavaVersion.parse(JavaVersion.
+  D:\iti\kotlin\12\raw_help.txt:47:java:307)
+  D:\iti\kotlin\12\raw_help.txt:48:	at org.jetbrains.kotlin.com.intellij.u
+  D:\iti\kotlin\12\raw_help.txt:49:til.lang.JavaVersion.current(JavaVersio
+  D:\iti\kotlin\12\raw_help.txt:50:n.java:176)
+  D:\iti\kotlin\12\raw_help.txt:51:	at org.jetbrains.kotlin.cli.jvm.module
+  D:\iti\kotlin\12\raw_help.txt:52:s.JavaVersionUtilsKt.isAtLeastJava9(jav
+  D:\iti\kotlin\12\raw_help.txt:53:aVersionUtils.kt:11)
+  D:\iti\kotlin\12\raw_help.txt:54:	at org.jetbrains.kotlin.cli.jvm.module
+  D:\iti\kotlin\12\raw_help.txt:55:s.CoreJrtFileSystem.globalJrtFsCache$la
+  D:\iti\kotlin\12\raw_help.txt:56:mbda$2(CoreJrtFileSystem.kt:83)
+  D:\iti\kotlin\12\raw_help.txt:57:	at org.jetbrains.kotlin.cli.jvm.module
+  D:\iti\kotlin\12\raw_help.txt:58:s.CoreJrtFileSystem.globalJrtFsCache$la
+  D:\iti\kotlin\12\raw_help.txt:59:mbda$3(CoreJrtFileSystem.kt:74)
+  D:\iti\kotlin\12\raw_help.txt:60:	at org.jetbrains.kotlin.com.intellij.u
+  D:\iti\kotlin\12\raw_help.txt:61:til.containers.ConcurrentFactoryMap$2.c
+  D:\iti\kotlin\12\raw_help.txt:62:reate(ConcurrentFactoryMap.java:174)
+  D:\iti\kotlin\12\raw_help.txt:63:	at org.jetbrains.kotlin.com.intellij.u
+  D:\iti\kotlin\12\raw_help.txt:64:til.containers.ConcurrentFactoryMap.get
+  D:\iti\kotlin\12\raw_help.txt:65:(ConcurrentFactoryMap.java:40)
+  D:\iti\kotlin\12\raw_help.txt:66:	at org.jetbrains.kotlin.cli.jvm.module
+  D:\iti\kotlin\12\raw_help.txt:67:s.CoreJrtFileSystem.roots$lambda$0(Core
+  D:\iti\kotlin\12\raw_help.txt:68:JrtFileSystem.kt:34)
+  D:\iti\kotlin\12\raw_help.txt:69:	at org.jetbrains.kotlin.cli.jvm.module
+  D:\iti\kotlin\12\raw_help.txt:70:s.CoreJrtFileSystem.roots$lambda$1(Core
+  D:\iti\kotlin\12\raw_help.txt:71:JrtFileSystem.kt:33)
+  D:\iti\kotlin\12\raw_help.txt:72:	at org.jetbrains.kotlin.com.intellij.u
+  D:\iti\kotlin\12\raw_help.txt:73:til.containers.ConcurrentFactoryMap$2.c
+  D:\iti\kotlin\12\raw_help.txt:74:reate(ConcurrentFactoryMap.java:174)
+  D:\iti\kotlin\12\raw_help.txt:75:	at org.jetbrains.kotlin.com.intellij.u
+  D:\iti\kotlin\12\raw_help.txt:76:til.containers.ConcurrentFactoryMap.get
+  D:\iti\kotlin\12\raw_help.txt:77:(ConcurrentFactoryMap.java:40)
+  D:\iti\kotlin\12\raw_help.txt:78:	at org.jetbrains.kotlin.cli.jvm.module
+  D:\iti\kotlin\12\raw_help.txt:79:s.CoreJrtFileSystem.findFileByPath(Core
+  D:\iti\kotlin\12\raw_help.txt:80:JrtFileSystem.kt:42)
+  D:\iti\kotlin\12\raw_help.txt:81:	at org.jetbrains.kotlin.cli.jvm.module
+  D:\iti\kotlin\12\raw_help.txt:82:s.CliJavaModuleFinder.<init>(CliJavaMod
+  D:\iti\kotlin\12\raw_help.txt:83:uleFinder.kt:44)
+  D:\iti\kotlin\12\raw_help.txt:84:	at org.jetbrains.kotlin.cli.jvm.compil
+  D:\iti\kotlin\12\raw_help.txt:85:er.KotlinCoreEnvironment.<init>(KotlinC
+  D:\iti\kotlin\12\raw_help.txt:86:oreEnvironment.kt:243)
+  D:\iti\kotlin\12\raw_help.txt:87:	at org.jetbrains.kotlin.cli.jvm.compil
+  D:\iti\kotlin\12\raw_help.txt:88:er.KotlinCoreEnvironment.<init>(KotlinC
+  D:\iti\kotlin\12\raw_help.txt:89:oreEnvironment.kt)
+  D:\iti\kotlin\12\raw_help.txt:90:	at org.jetbrains.kotlin.cli.jvm.compil
+  D:\iti\kotlin\12\raw_help.txt:91:er.KotlinCoreEnvironment$Companion.crea
+  D:\iti\kotlin\12\raw_help.txt:92:teForProduction(KotlinCoreEnvironment.k
+  D:\iti\kotlin\12\raw_help.txt:93:t:468)
+> D:\iti\kotlin\12\raw_help.txt:868:ecution.SessionFailureReportingActionEx
+> D:\iti\kotlin\12\raw_help.txt:869:ecutor.execute(SessionFailureReportingA
+  D:\iti\kotlin\12\raw_help.txt:870:ctionExecutor.java:51)
+  D:\iti\kotlin\12\raw_help.txt:871:	at org.gradle.internal.buildprocess.ex
+> D:\iti\kotlin\12\raw_help.txt:872:ecution.SessionFailureReportingActionEx
+> D:\iti\kotlin\12\raw_help.txt:873:ecutor.execute(SessionFailureReportingA
+  D:\iti\kotlin\12\raw_help.txt:874:ctionExecutor.java:39)
+  D:\iti\kotlin\12\raw_help.txt:875:	at org.gradle.internal.buildprocess.ex
+  D:\iti\kotlin\12\raw_help.txt:876:ecution.SetupLoggingActionExecutor.exec
+  D:\iti\kotlin\12\raw_help.txt:877:ute(SetupLoggingActionExecutor.java:47)
+  D:\iti\kotlin\12\raw_help.txt:878:	at org.gradle.internal.buildprocess.ex
+  D:\iti\kotlin\12\raw_help.txt:879:ecution.SetupLoggingActionExecutor.exec
+  D:\iti\kotlin\12\raw_help.txt:880:ute(SetupLoggingActionExecutor.java:31)
+  D:\iti\kotlin\12\raw_help.txt:881:	at org.gradle.launcher.daemon.server.e
+  D:\iti\kotlin\12\raw_help.txt:882:xec.ExecuteBuild.doBuild(ExecuteBuild.j
+  D:\iti\kotlin\12\raw_help.txt:883:ava:70)
+  D:\iti\kotlin\12\raw_help.txt:884:	at org.gradle.launcher.daemon.server.e
+  D:\iti\kotlin\12\raw_help.txt:885:xec.BuildCommandOnly.execute(BuildComma
+  D:\iti\kotlin\12\raw_help.txt:886:ndOnly.java:37)
+  D:\iti\kotlin\12\raw_help.txt:887:	at org.gradle.launcher.daemon.server.a
+  D:\iti\kotlin\12\raw_help.txt:888:pi.DaemonCommandExecution.proceed(Daemo
+  D:\iti\kotlin\12\raw_help.txt:889:nCommandExecution.java:104)
+  D:\iti\kotlin\12\raw_help.txt:890:	at org.gradle.launcher.daemon.server.e
+  D:\iti\kotlin\12\raw_help.txt:891:xec.WatchForDisconnection.execute(Watch
+  D:\iti\kotlin\12\raw_help.txt:892:ForDisconnection.java:39)
+  D:\iti\kotlin\12\raw_help.txt:893:	at org.gradle.launcher.daemon.server.a
+  D:\iti\kotlin\12\raw_help.txt:894:pi.DaemonCommandExecution.proceed(Daemo
+  D:\iti\kotlin\12\raw_help.txt:895:nCommandExecution.java:104)
+  D:\iti\kotlin\12\raw_help.txt:896:	at org.gradle.launcher.daemon.server.e
+  D:\iti\kotlin\12\raw_help.txt:897:xec.ResetDeprecationLogger.execute(Rese
+  D:\iti\kotlin\12\raw_help.txt:898:tDeprecationLogger.java:29)
+  D:\iti\kotlin\12\raw_help.txt:899:	at org.gradle.launcher.daemon.server.a
+  D:\iti\kotlin\12\raw_help.txt:900:pi.DaemonCommandExecution.proceed(Daemo
+  D:\iti\kotlin\12\raw_help.txt:901:nCommandExecution.java:104)
+  D:\iti\kotlin\12\raw_help.txt:902:	at org.gradle.launcher.daemon.server.e
+  D:\iti\kotlin\12\raw_help.txt:903:xec.RequestStopIfSingleUsedDaemon.execu
+  D:\iti\kotlin\12\raw_help.txt:904:te(RequestStopIfSingleUsedDaemon.java:3
+  D:\iti\kotlin\12\raw_help.txt:905:5)
+  D:\iti\kotlin\12\raw_help.txt:906:	at org.gradle.launcher.daemon.server.a
+  D:\iti\kotlin\12\raw_help.txt:907:pi.DaemonCommandExecution.proceed(Daemo
+  D:\iti\kotlin\12\raw_help.txt:908:nCommandExecution.java:104)
+  D:\iti\kotlin\12\raw_help.txt:909:	at org.gradle.launcher.daemon.server.e
+  D:\iti\kotlin\12\raw_help.txt:910:xec.ForwardClientInput.lambda$execute$0
+  D:\iti\kotlin\12\raw_help.txt:911:(ForwardClientInput.java:40)
+  D:\iti\kotlin\12\raw_help.txt:912:	at org.gradle.internal.daemon.clientin
+  D:\iti\kotlin\12\raw_help.txt:913:put.ClientInputForwarder.forwardInput(C
+  D:\iti\kotlin\12\raw_help.txt:914:lientInputForwarder.java:80)
+  D:\iti\kotlin\12\raw_help.txt:915:	at org.gradle.launcher.daemon.server.e
+  D:\iti\kotlin\12\raw_help.txt:916:xec.ForwardClientInput.execute(ForwardC
+  D:\iti\kotlin\12\raw_help.txt:917:lientInput.java:37)
+  D:\iti\kotlin\12\raw_help.txt:918:	at org.gradle.launcher.daemon.server.a
+  D:\iti\kotlin\12\raw_help.txt:919:pi.DaemonCommandExecution.proceed(Daemo
+  D:\iti\kotlin\12\raw_help.txt:920:nCommandExecution.java:104)
+  D:\iti\kotlin\12\raw_help.txt:921:	at org.gradle.launcher.daemon.server.e
+  D:\iti\kotlin\12\raw_help.txt:922:xec.LogAndCheckHealth.execute(LogAndChe
+  D:\iti\kotlin\12\raw_help.txt:923:ckHealth.java:53)
+> D:\iti\kotlin\12\raw_help.txt:952:utorPolicy$CatchAndRecordFailures.onExe
+  D:\iti\kotlin\12\raw_help.txt:953:cute(ExecutorPolicy.java:64)
+  D:\iti\kotlin\12\raw_help.txt:954:	at org.gradle.internal.concurrent.Abst
+  D:\iti\kotlin\12\raw_help.txt:955:ractManagedExecutor$1.run(AbstractManag
+  D:\iti\kotlin\12\raw_help.txt:956:edExecutor.java:48)
+  D:\iti\kotlin\12\raw_help.txt:957:
+  D:\iti\kotlin\12\raw_help.txt:958:
+  D:\iti\kotlin\12\raw_help.txt:959:BUILD FAILED in 8s
